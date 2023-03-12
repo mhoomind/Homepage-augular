@@ -1,0 +1,262 @@
+.container{
+  .row{
+    background: #081B15;
+    width: 110%;
+    .col:nth-child(2){
+      padding: 10px;
+      img{
+        max-width: 130%;
+      }
+    }
+  }
+}
+.cover {
+  margin-top: 70px;
+
+  .topic {
+    p {
+      text-align: center;
+      font-size: 28px;
+    }
+  }
+  .container-2 {
+    padding: 9px;
+
+    .row {
+      .col-9 {
+        img {
+          width: 130px;
+        }
+      }
+
+      .col-4 {
+        img {
+          width: 130px;
+          margin: 1px;
+        }
+      }
+
+      .col-6 {
+        background: #081B15;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 9px;
+        margin-left: 45px;
+
+        img {
+          width: 80px;
+        }
+      }
+    }
+  }
+}
+.footer{
+  margin-top: 50px;
+  .footer-copyright{
+    background: #081B15;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    bottom: 0 ;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .cover{
+    padding: 25px;
+    .topic{
+      p {
+        text-align: center;
+        font-size: 32px;
+      }
+    }
+    .container-2 {
+
+      .row {
+        .col-9 {
+        }
+
+        .col-4 {
+          img {
+            width: 140px;
+            margin: 1px;
+          }
+        }
+
+        .col-6 {
+          background: #081B15;
+          color: #FFFFFF;
+          text-align: center;
+          font-size: 9px;
+          margin-left: 45px;
+
+          img {
+            width: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .cover{
+    padding: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+  .cover {
+    margin-top: 0px;
+    .topic {
+      p {
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: start;
+      }
+    }
+        .container-2 {
+          padding: 0px;
+          .row {
+            display: inline-flex;
+            justify-content: space-around;
+            .col-4 {
+              img {
+                width: 300px;
+              }
+            }
+
+            .col-6 {
+              img {
+                margin-top: 10px;
+                width: 180px;
+              }
+              p{
+                font-size: 16px;
+              }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container{
+    .row{
+      text-align: center;
+      .col:nth-child(2){
+        padding: 10px;
+        img{
+          max-width: 130%;
+        }
+      }
+    }
+  }
+  .cover{
+    .topic{
+      margin-left: 60px;
+      p{
+        font-size: 80px;
+      }
+    }
+    .container-2{
+      margin-top: 30px;
+      .row{
+        display: inline-flex;
+        justify-content: space-between;
+        padding: 30px;
+        .col-4 {
+          img {
+            width: 400px;
+          }
+        }
+
+        .col-6 {
+          img:nth-child(1){
+            margin-top: 10px;
+            width: 250px;
+          }
+          p{
+            margin-top: 30px;
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+  .container{
+    .row{
+      width: 120%;
+    }
+  }
+  .container-2{
+    margin-top: 30px;
+    .row{
+      display: inline-flex;
+      justify-content: space-between;
+      padding: 0px;
+      .col-4 {
+        img{
+          width: 650px;
+        }
+      }
+      .col-6 {
+        img:nth-child(1){
+          margin-top: 10px;
+          width: 250px;
+
+        }
+        p{
+          margin-top: 30px;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  *{
+    padding: 0px;
+  }
+  .container{
+    .row{
+      width: 100vw;
+      .col{
+
+      }
+    }
+  }
+  .container-2{
+    .row{
+      .col-4 {
+        img {
+          width: 500%;
+          height: auto;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .container{
+    .row{
+      width: 100vw;
+    }
+  }
+}
